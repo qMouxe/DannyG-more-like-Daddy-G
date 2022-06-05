@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #1d1d1d;
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  width:100%;
+  background: #1daa92;
+  position: relative;
+  max-height: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.menu a{
+  position: relative;
+  color: #0a3a31;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+.menu a:hover{
+  color: #000;
+  margin-top: 0px;
+  transition: 0.5s;
+}
+.menu ul{
+  position: relative;
+  font-family: sans-serif;
+  display: inline-flex;
+  margin: 15px;
+  padding: 0
+  list-style: none;
+}
+.menu ul li{
+  position: relative;
+  display: inline-flex;
+  font-family: sans-serif;
+  margin: 0 20px;
+  padding: 0
+  color: #b2b1b1;
+  cursor: pointer;
+}
+.menu a:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #00604c;
+
+transition: all ease-in-out 0.25s;
+  position: absolute;
+  margin-top: -35px
+}
+.menu a:hover::before {
+  width: 100%;
+}
+.tab{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+}
+.active{
+  color: #fff !important
+}
+.tab{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+}
+.body h1 {
+  font-size: 43px;
+  color: #fff;
+  position: relative;
+  margin-left: 100px;
+
+}
+.body p {
+  position: relative;
+  margin-left: 100px;
+  color: #919191;
+}
+.Definitions {
+  color: #fff
+}
+.example::-webkit-scrollbar{
+  display: none;
+  -ms-overflow-style: none;
+}
